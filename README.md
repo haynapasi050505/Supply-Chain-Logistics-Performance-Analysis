@@ -222,6 +222,9 @@ Air accounts for about **₹15.6M, roughly half of total logistics cost**, follo
 
 <img width="446" height="275" alt="Screenshot 2026-11-16 125433" src="https://github.com/user-attachments/assets/e196f7a2-5728-4956-9f93-4e86c054bd97" />
 
+<img width="1327" height="753" alt="Screenshot 2026-11-04 120109" src="https://github.com/user-attachments/assets/285a933a-6a62-4928-a33d-d7f6903a2ba4" />
+
+
 
 ## Recommendations
 First, the company should investigate the North East zone because it has the highest late delivery rate.

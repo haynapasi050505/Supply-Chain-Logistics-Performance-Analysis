@@ -99,6 +99,31 @@ A single flat table with **one row per shipment**.
 4. Created a `Date` table with Year, Month, Month Year and Quarter, related to `Order Date`.
 5. Kept `Shipments` as the single fact table and stored all measures in a dedicated Measures table.
 
+## Analysis Performed
+
+The analysis focused on evaluating shipment performance, identifying operational bottlenecks and understanding logistics cost patterns.
+
+1. **Delivery Performance Analysis**
+   - Calculated overall on-time and late delivery percentages.
+   - Compared delivery performance across destination zones and shipping partners.
+   - Identified regions with consistently higher late-delivery rates.
+
+2. **Delay Reason Analysis**
+   - Analysed major causes of shipment delays.
+   - Identified warehouse processing, traffic congestion and adverse weather as key contributors.
+
+3. **Logistics Cost Analysis**
+   - Compared total logistics costs across shipping modes.
+   - Evaluated cost per shipment and cost per kg.
+
+4. **Shipment Trend Analysis**
+   - Analysed monthly shipment volumes.
+   - Identified seasonal demand patterns and festive-period peaks.
+
+5. **Customer Service Quality Analysis**
+   - Evaluated average customer ratings.
+   - Examined delivery status and shipment damage patterns.
+
 ## KPIs & DAX Measures
 
 | KPI | Definition |

@@ -27,6 +27,16 @@ A logistics company ships products from multiple warehouses to cities across Ind
 
 ## Business Problem
 
+The main objective of this project was to analyze shipment operations and understand how efficiently deliveries were happening, where delays were occurring, and how logistics costs were distributed.
+I worked with a dataset of 20,000 shipment records covering 2025 and 2026. The dataset included order dates, dispatch dates, promised and actual delivery dates, shipping partners, shipping modes, destination locations, logistics costs, delivery status, delay reasons, and customer ratings.
+I used Power Query for data cleaning and transformation, and DAX to create measures for important KPIs. After preparing the data, I created an interactive dashboard to analyze delivery performance, regional delays, shipping partner performance, and logistics costs.
+
+The business problem was that a logistics company may process thousands of shipments, but without proper analysis, it can be difficult to identify where operational problems are happening.
+For example, the company may know that some shipments are getting delayed, but it may not know which destination zones have more delays, which shipping partners are performing poorly, or which shipping modes are contributing more to logistics costs.
+So my objective was to analyze these areas and provide insights that could help improve delivery efficiency, control logistics costs, and identify operational bottlenecks.
+
+
+
 Management wants to answer:
 
 - How reliable is our delivery performance overall, and where does it fall short?
@@ -34,6 +44,7 @@ Management wants to answer:
 - What are the main reasons for delays, and which are controllable?
 - Which shipping modes drive logistics cost?
 - How do demand peaks and seasonality affect operations?
+
 
 ## Dataset
 
@@ -213,6 +224,11 @@ Air accounts for about **₹15.6M, roughly half of total logistics cost**, follo
 
 
 ## Recommendations
+First, the company should investigate the North East zone because it has the highest late delivery rate.
+Second, it should review shipping partner performance in that region and understand why some partners have significantly higher delay rates than others.
+Third, warehouse processing delays should be investigated because they are the most frequently reported delay reason.
+Fourth, the company can review its transportation costs across different shipping modes and compare cost efficiency based on shipment volume, distance, and weight.
+Finally, it should monitor monthly shipment trends to plan resources better during high-volume periods.
 
 1. **Re-allocate North East volume** away from the lowest-performing partners (VRL Logistics, Ecom Express, DTDC, Gati) towards more reliable carriers, or use them only for non-urgent loads.
 2. **Set longer promise windows** and review routing for North East lanes to reduce missed commitments.

@@ -172,6 +172,8 @@ Avg Customer Rating = AVERAGE(Shipments[Customer Rating])
 - Delay Reasons (bar chart)
 - Logistics Cost by Shipping Mode (bar chart)
 - Late Delivery Rate by Shipping Partner, North East (bar chart)
+<img width="1317" height="117" alt="Screenshot 2026-11-16 130130" src="https://github.com/user-attachments/assets/388e4d9e-61c9-4643-8820-92b164b73489" />
+
 
 ## Key Insights
 
@@ -183,18 +185,32 @@ Avg Customer Rating = AVERAGE(Shipments[Customer Rating])
 
 ### 1. The North East is the main problem region
 Its late-delivery rate is **35.9%**, more than double that of every other zone (13.3%–16.1%). Central, North and West sit close together at around 13–14%, which shows the issue is regional rather than network-wide.
+<img width="385" height="257" alt="Screenshot 2026-11-16 125417" src="https://github.com/user-attachments/assets/6baa4db7-f597-492a-8802-051b21e9b469" />
+
 
 ### 2. Partner choice drives North East performance
 In the North East, VRL Logistics is late **68%** of the time, followed by Ecom Express (50%), DTDC (46.7%) and Gati (45.2%). BlueDart Express has the lowest late rate at **7.1%** and TCI Express is at 19.4%, a gap of about 60 percentage points between best and worst.
 
+<img width="447" height="277" alt="Screenshot 2026-11-16 125441" src="https://github.com/user-attachments/assets/e21657a7-34a2-4154-a2a0-c9300d8157bd" />
+
+
 ### 3. Most delays come from operational causes
 Warehouse Processing Delay (591), Traffic Congestion (440) and Adverse Weather (433) are the top three delay reasons. Warehouse processing is the largest single cause and is directly controllable, unlike weather or traffic. Vehicle Breakdown, Partner Capacity Shortage and Festive Season Volume form the next group.
+
+<img width="386" height="272" alt="Screenshot 2026-11-16 125426" src="https://github.com/user-attachments/assets/d55c4478-f02b-45e7-8ad3-5ee3355fe6ac" />
+
 
 ### 4. Strong festive-season peak
 Shipment volume peaks in **October–November 2025** (about 1,531 shipments in the peak month, against roughly 800–1,000 in a typical month) and then returns to normal. *(August 2026 shows a drop because the data ends part-way through the month.)*
 
+<img width="517" height="257" alt="Screenshot 2026-11-16 125355" src="https://github.com/user-attachments/assets/6c9554ef-e5f4-47e7-9117-3324eeda7b47" />
+
+
 ### 5. Air dominates logistics cost
 Air accounts for about **₹15.6M, roughly half of total logistics cost**, followed by Road (₹9.8M), Rail (₹3.5M) and Express (₹2.9M). This is total cost, so it reflects both rate and volume. Cost per kg by mode should be compared before drawing conclusions on efficiency.
+
+<img width="446" height="275" alt="Screenshot 2026-11-16 125433" src="https://github.com/user-attachments/assets/e196f7a2-5728-4956-9f93-4e86c054bd97" />
+
 
 ## Recommendations
 
